@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    overflow: hidden;
+}
+nav{
+   background-color: rgba(26, 11, 46, 1);
+   width: 100%;
+   height: 92px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.logo{
+    color: white;
+
+}
+.logo span{
+ 
+    background: linear-gradient(
+        90deg,
+        rgba(247, 233, 63, 1) 0%,
+        rgba(251, 9, 180, 1) 50%,
+        rgba(145, 0, 248, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+
+
+.list p a{
+text-decoration: none;
+color: #FFFFFF;
+}
+.list p{
+    display: flex;
+    gap: 32px;
+}
+.but{
+    width: 135px;
+    height: 44px;
+    background: linear-gradient(90deg, 
+                rgba(247, 233, 63, 1) 0%, 
+                rgba(251, 9, 180, 1) 50%, 
+                rgba(145, 0, 248, 1) 100%);
+    border-radius: 10px;
+}
+.hero{
+    background-image: url(../assets/hero-bg.png);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    display: flex;            
+    justify-content: center;  
+    align-items:  center;
+    flex-direction: column;
+  
+}
+.hero-main{
+ 
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+
+}
+.hero-immage {
+    position: relative;
+    width: fit-content; 
+}
+
+.hero-immage > img {
+     
+    display: block;
+    width: 350px;
+height: 350px;
+}
+.microphon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.microphon img {
+    width: 100px; 
+    height: auto;
+}
+.hero-continar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.hero-continar h1{
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.hero-continar p{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.normal{
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 12px 20px;
+    background: none;
+    color: green;
+}
+.new-badge {
+    position: absolute;
+    top: 20px;    
+    right: 20px;  
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 5; 
