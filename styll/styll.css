@@ -21,7 +21,13 @@ nav{
    display: flex;
    justify-content: space-around;
    align-items: center;
+   
 }
+.mobile-menu {
+    display: none; 
+    width: 30px;   
+    cursor: pointer;}
+
 .logo{
     color: white;
 
@@ -66,6 +72,9 @@ color: #FFFFFF;
     justify-content: center;  
     align-items:  center;
     flex-direction: column;
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
   
 }
 .hero-main{
@@ -129,4 +138,82 @@ height: 350px;
     font-size: 14px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    z-index: 5; 
+    z-index: 5; }
+    @media (max-width: 576px) {
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+    .list, nav > .but {
+        display: none !important;
+    }
+    .mobile-menu {
+        display: block !important;
+        width: 25px;
+        padding-right: 30px;
+    }
+
+    
+    .hero-main {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+   
+    .hero-immage {
+        position: relative;
+        width: 180px;
+        margin: 0 auto;
+    }
+    .hero-immage > img {
+        width: 100%; 
+        height: auto;
+    }
+    .microphon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%; 
+    }
+    .microphon img {
+        width: 100%;
+    }
+
+    
+    .new-badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 10px;
+        padding: 2px 8px;
+    }
+
+    
+    .hero-continar h1 {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    .hero-continar p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .btan {
+        display: flex;
+        gap: 15px;
+        padding: 0 30px;
+        margin-top: 30px;
+        align-self: center;
+    }
+    .hero{
+        width: 100%;
+height: 466px;
+    }
+
+}
