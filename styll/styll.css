@@ -308,10 +308,72 @@ height: 350px;
     font-weight: bold;
     font-size: 14px;
 }
-Featured-heading
+.Meet-the-Host{
+ font-size: 40px;
+ background-color: rgba(26, 11, 46, 1);
+ text-align: center;
+ color: white;
+ padding: 120px;
+}
+.host{
+    padding: 40px;
+    display: flex;
+    background-color:  rgba(53, 17, 101, 0.4);
+ text-align: left;
+  gap: 20px;
+    
+}
+.immage-con h3
+{
+    font-size: 32px;
+    padding: 20px;
 
+}
+.immage-con p{
+    font-size: 16px;
+   
+}
+.Meet-the-Host{
+    background-color:  rgba(26, 11, 46, 1);
+    
+}
+.immage-con img{border: 2px solid white;
+    border-radius: 200px;
+    padding: 4px;
+    align-items: left;
 
+}
+footer{
+    background-image: url(../assets/footer-bg.png);
+     width: 100%;
+     height: 412px;
+     background-position: center;
+}
+.footer{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.foot-img{
+    display: flex;
+    gap: 20px;
 
+}
+.foot-img p{
+    color: #FFFFFF;
+    
+}
+.last p{
+color: #FFFFFF;
+padding: 20px;
+}
+.footer-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
 
     @media (max-width: 576px) {
     
