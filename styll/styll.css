@@ -139,7 +139,16 @@ height: 350px;
     font-size: 14px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    z-index: 5; }
+    z-index: 5;
+animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;}
+    
+    @keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
     .head{
         background-color: rgba(26, 11, 46, 1);
         
